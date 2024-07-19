@@ -7,9 +7,19 @@ Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados e
 
 ```
 ├── src
-├── README.md
+│ ├── controller
+│ │ └── estatistica.controller.js
+│ ├── model
+│ │ └── estatisticas.model.js
+│ ├── routes
+│ │ └── estatistica.router.js
+│ └── server.js
+├── .gitignore
+├── package-lock.json
 ├── package.json
-└── app.js
+└── README.md
+
+
 ```
 
 
