@@ -33,13 +33,13 @@ Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados e
 1. Clone o repositório:
 
    ```
-   git clone https://github.com/seu-usuario/EstatisticasDePaises.git
+   git clone https://github.com/souzalipe/Api_Estatisticas_De_Paises
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```
-   cd EstatisticasDePaises
+   cd Api_Estatisticas_De_Paises
    ```
    
 3. Instale as dependências:
