@@ -1,75 +1,64 @@
-## Saúde Completa &#x2695;
+## Estatísticas de Países 🌍
 
-Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir tratamentos de saúde e melhorar a comunicação entre pacientes e profissionais da saúde. Com um banco de dados bem completo, o sistema ajuda a gerenciar de forma eficiente todas as informações importantes para a saúde do usuário.
+Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados estatísticos de países, incluindo índices de fome, desigualdade social e escolaridade. A API permite a inserção, consulta, exclusão e listagem dessas estatísticas.
 
-### Estrutura de Arquivos &#x1F4C4;
+### Estrutura de Arquivos 📄
+
 
 ```
 ├── src
-├── Modelo_Conceitual_Projeto_M3.png
 ├── README.md
-├── Sistema.sql
-├── Slide de apresentação - saúde completa.pdf
-├── codigo do modelo ER.sql
-└── diagrama_relacional.png 
+├── package.json
+└── app.js
 ```
 
-## Pré-requisitos &#x1F528; 
 
-- Diagrama Conceitual 
-- Diagrama de Entidade e Relacionamento
-- Gráficos de Consultas SQL
-- Código SQL
-- Slide de Apresentação
+## Pré-requisitos 🔧
 
-## Instalação &#x1F527;
+- Node.js
+- NPM (Node Package Manager)
+
+## Instalação 🛠
 
 1. Clone o repositório:
 
    ```
-   git clone https://github.com/brenddamachado/GerenciamentoDeSaude.git
+   git clone https://github.com/seu-usuario/EstatisticasDePaises.git
    ```
 
-2. Instale as dependências:
+2. Navegue até o diretório do projeto:
 
    ```
-   MySQL Worbrench install 
+   cd EstatisticasDePaises
    ```
+   
+3. Instale as dependências:
+
+   ```
+   npm install
+   ```
+
 
 ## Executando a Aplicação &#x27A1;
 
-Para iniciar o Banco de Dados:
-
-
-- Em seu  MySQL Worbrench utilize o código 'CREATE DATABASE SaúdeCompleta;'; 
-
-
-
-- USE SaúdeCompleta; 
-
-
-
-- Utilize o código SQL com as tabela e inserts que podem ser encontrados no arquivo Sistema.sql; 
-
-
-
-- Coloque os código SQL em seu MySQL Worbrench; 
-
-
-- Após o código estár colado clique no símbolo de Ráio(executar) para ver com mais detalhes o banco de dados; 
-
+- npm start
 
 ## Endpoints
 
 ## Importando a Collection no Postman
 
-1. Abra o Postman.
-2. Vá em "File" > "Import".
-3. Selecione a opção "Upload Files".
-4. Navegue até o local onde a collection do Postman está salva e selecione o arquivo.
-5. Clique em "Import".
+- Inserir Estatística
+Rota: POST /estatistica/inserir
+Descrição: Insere uma nova estatística de um país.
+Corpo da Requisição:
+json
 
-A collection agora estará disponível no Postman e você poderá testar os endpoints configurados.
+1.{
+  "pais": "Nome do País",
+  "fome_indice": valor,
+  "desigualdade_social": valor,
+  "escolaridade_indice": valor
+}
 
 ## Contribuindo
 
