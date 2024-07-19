@@ -48,17 +48,18 @@ Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados e
 ## Importando a Collection no Postman
 
 - Inserir Estatística
-Rota: POST /estatistica/inserir
-Descrição: Insere uma nova estatística de um país.
-Corpo da Requisição:
-json
+- Rota: POST /estatistica/inserir
+- Descrição: Insere uma nova estatística de um país.
+- Corpo da Requisição: json
 
-1.{
+```
+{
   "pais": "Nome do País",
   "fome_indice": valor,
   "desigualdade_social": valor,
   "escolaridade_indice": valor
 }
+```
 
 ## Contribuindo
 
