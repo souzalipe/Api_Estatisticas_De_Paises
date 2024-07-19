@@ -45,9 +45,7 @@ Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados e
 
 ## Endpoints
 
-## Importando a Collection no Postman
-
-- Inserir Estatística
+## Inserir Estatística
 
 - Inserir Estatística
 - Rota: POST /estatistica/inserir
