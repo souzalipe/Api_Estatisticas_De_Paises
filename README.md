@@ -70,7 +70,7 @@ Este projeto tem como objetivo criar uma API para gerenciar e visualizar dados e
 }
 ```
 
--Resposta: 
+- Resposta: 
 
 ```
 {
